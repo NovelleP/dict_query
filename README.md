@@ -43,7 +43,7 @@ dict_query.get('a[@.flag=Yes]')
 >>> {'a2': {'flag': 'Yes', 'a12': '12'}}
 ```
 
->'@' is a special char: then name for the current value
+>'@' is a special char: the name for the current value
 >* This char can be changed in the call to DictQuery constructor
 >```
 >DictQuery(data, currentval_name='@')
