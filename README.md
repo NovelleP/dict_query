@@ -59,7 +59,7 @@ dict_query.get('a[@.flag=Yes]')
 >DictQuery(data, path_separator='#', filterpath_separator='?')
 >```
 >
->* The separator also can be changed in the call to 'get' method for a specific query
+>* The separators also can be changed in the call to 'get' method for a specific query
 >```
 >DictQuery(data).get(query, path_separator='#', filterpath_separator='?')
 >```
