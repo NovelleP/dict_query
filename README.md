@@ -48,7 +48,7 @@ dict_query.get('a[@.flag=Yes]')
 >```
 >DictQuery(data, currentval_name='@')
 >```
->It also can be changed in the call to 'get' method for a specific query
+>* It also can be changed in the call to 'get' method for a specific query
 >```
 >DictQuery(data).get(query, currentval_name='this')
 >```
